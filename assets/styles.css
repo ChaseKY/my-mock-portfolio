@@ -1,7 +1,7 @@
 .header {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: aqua;
-    background-color: rgb(26, 26, 71);
+    color: #0da6ec;
+    background-color: #012e67;
     display: flex;
     font-size: 18pt;
     justify-content: left;
@@ -23,7 +23,7 @@ h2 {
     text-align: center;
     font-size: 26pt;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(26, 26, 71);
+    color: #012e67;
 }
 
 ul {
@@ -31,7 +31,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: aqua;
+    background-color: #032e42;
     margin-left: 621px;
     margin-top: 25px;
     font-size: 24pt;
@@ -43,10 +43,17 @@ li {
   
 li a {
     display: block;
-    color: rgb(26, 26, 71);
+    color: #0da6ec;
     text-align: right;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+.section1 {
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 10px;
+    border-color: #012e67;
 }
 
 p {
@@ -56,5 +63,11 @@ p {
     margin-right: 0.8in;
     text-indent: 1.5cm;
     line-height: 30px;
-    
+}
+
+h3 {
+    text-align: center;
+    font-size: 26pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #012e67;
 }
