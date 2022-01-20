@@ -135,6 +135,12 @@ h3 {
     margin-right: 20%;
 }
 
+.footer {
+    display: flex;
+    color: #012e67;
+    background-color: #9cacbf;
+}
+
 @media screen and (max-width: 760px) {
     header {
         flex-direction: column;
