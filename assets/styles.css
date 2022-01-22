@@ -93,6 +93,7 @@ h3 {
     width: 100%;
     justify-content: center;
     display: flex;
+    margin: 0;
 }
 
 .app p {
@@ -106,6 +107,7 @@ h3 {
     width: 100%;
     display: flex;
     justify-content: center;
+    margin: 0;
 }
 
 .app2 .pjt2 {
@@ -128,6 +130,7 @@ h3 {
     width: 100%;
     display: flex;
     justify-content: center;
+    margin: 0;
 }
 
 .app3 .pjt3 {
