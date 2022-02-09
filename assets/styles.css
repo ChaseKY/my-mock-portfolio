@@ -26,6 +26,7 @@
     width: 100%;
     height: auto;
     margin-left: 265%;
+    border-radius: 50%;
 }
 
 h2 {
@@ -65,6 +66,16 @@ li a {
     border-color: #012e67;
 }
 
+footer a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14pt;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-indent: 1.5cm;
+    line-height: 30px;
+    margin-top: 1%;
+}
+
 p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 14pt;
@@ -82,10 +93,10 @@ h3 {
 }
 
 .app .pjt1 {
-    width: 100%;
+    width: 60%;
     height: auto;
     border-width: 10px;
-    border-color: #9cacbf;
+    border-color: #4292e2;
     border-style: solid;
 }
 
@@ -94,13 +105,14 @@ h3 {
     justify-content: center;
     display: flex;
     margin: 0;
+    text-align: center;
 }
 
 .app p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 14pt;
     text-align: center;
-    margin-right: 15%;
+    margin-right: 10%;
 }
 
 .app2 {
@@ -108,15 +120,15 @@ h3 {
     display: flex;
     justify-content: center;
     margin: 0;
+    text-align: center;
 }
 
 .app2 .pjt2 {
-    width: 50%;
+    width: 60%;
     height: auto;
     border-width: 10px;
-    border-color: #9cacbf;
+    border-color: #4292e2;
     border-style: solid;
-    margin-left: 20%;
 }
 
 .app2 p {
@@ -131,22 +143,23 @@ h3 {
     display: flex;
     justify-content: center;
     margin: 0;
+    text-align: center;
 }
 
 .app3 .pjt3 {
-    width: 100%;
+    width: 15%;
     height: auto;
     border-width: 10px;
-    border-color: #9cacbf;
+    border-color: #4292e2;
     border-style: solid;
-    margin-left: -10%;
+    opacity: 0.7;
 }
 
 .app3 p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 14pt;
     text-align: center;
-    margin-right: 20%;
+    margin-right: 10%;
 }
 
 .footer {
